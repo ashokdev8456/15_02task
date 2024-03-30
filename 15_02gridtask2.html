@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        .box{
+            background-color: green;
+            height:200px;
+            width:400px;
+            padding:10px;
+            display:grid;
+            gap:10px;
+        }
+        .header{
+            display:grid;
+            background-color:lightblue;
+            grid-column-start: 1;
+            grid-column-end: 8;
+            justify-content: center;
+            align-content: center;
+        }
+        .menu{
+            background-color: lightblue;
+            display:grid;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            justify-content: center;
+            align-content: center;
+        }
+        .main{
+            background-color: lightblue;
+            display:grid;
+            grid-column-start: 2;
+            grid-column-end: 5;
+            justify-content: center;
+            align-content: center;
+
+        }
+        .right{
+            background-color: lightblue;
+            display:grid;
+            grid-column-start: 5;
+            grid-column-end: 8;
+            justify-content: center;
+            align-content: center;
+
+
+        }
+        .folder{
+            background-color: lightblue;
+            display:grid;
+            grid-column-start: 2;
+            grid-column-end: 8;
+            justify-content: center;
+            align-content: center;
+
+
+
+        }
+      </style>  
+<body>
+
+    <div class="box">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="main">MAIN</div>
+        <div class="right">RIGHT</div>
+        <div class="folder">FOLDER</div>
+    </div>
+</body>
+</html>
